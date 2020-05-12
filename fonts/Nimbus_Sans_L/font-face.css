@@ -14,14 +14,6 @@ Nimbus Sans L Family
 
 @font-face {
     font-family: 'Nimbus Sans L';
-    src: url('/fonts/Nimbus_Sans_L/NimbusSanL-BoldItal.woff2') format('woff2'),
-        url('/fonts/Nimbus_Sans_L/NimbusSanL-BoldItal.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Nimbus Sans L';
     src: url('/fonts/Nimbus_Sans_L/NimbusSanL-ReguItal.woff2') format('woff2'),
         url('/fonts/Nimbus_Sans_L/NimbusSanL-ReguItal.woff') format('woff');
     font-weight: normal;
@@ -34,6 +26,14 @@ Nimbus Sans L Family
         url('/fonts/Nimbus_Sans_L/NimbusSanL-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nimbus Sans L';
+    src: url('/fonts/Nimbus_Sans_L/NimbusSanL-BoldItal.woff2') format('woff2'),
+        url('/fonts/Nimbus_Sans_L/NimbusSanL-BoldItal.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
 }
 
 /*
@@ -75,19 +75,21 @@ Displays all weights as bold
     font-style: italic;
 }
 
-@font-face {
-    font-family: 'Nimbus Sans L';
-    src: url('/fonts/Nimbus_Sans_L/NimbusSanL-ReguCond.woff2') format('woff2'),
-        url('/fonts/Nimbus_Sans_L/NimbusSanL-ReguCond.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+
 
 /*
 
 Nimbus Sans L Condensed Family
 
 */
+
+@font-face {
+    font-family: 'Nimbus Sans L Condensed';
+    src: url('/fonts/Nimbus_Sans_L/NimbusSanL-ReguCond.woff2') format('woff2'),
+        url('/fonts/Nimbus_Sans_L/NimbusSanL-ReguCond.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 @font-face {
     font-family: 'Nimbus Sans L Condensed';
@@ -99,17 +101,17 @@ Nimbus Sans L Condensed Family
 
 @font-face {
     font-family: 'Nimbus Sans L Condensed';
-    src: url('/fonts/Nimbus_Sans_L/NimbusSanL-BoldCondItal.woff2') format('woff2'),
-        url('/fonts/Nimbus_Sans_L/NimbusSanL-BoldCondItal.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Nimbus Sans L Condensed';
     src: url('/fonts/Nimbus_Sans_L/NimbusSanL-BoldCond.woff2') format('woff2'),
         url('/fonts/Nimbus_Sans_L/NimbusSanL-BoldCond.woff') format('woff');
     font-weight: bold;
     font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nimbus Sans L Condensed';
+    src: url('/fonts/Nimbus_Sans_L/NimbusSanL-BoldCondItal.woff2') format('woff2'),
+        url('/fonts/Nimbus_Sans_L/NimbusSanL-BoldCondItal.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
 }
 
