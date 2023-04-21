@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "Junicode";
+
+    src: url("/fonts/Junicode/junicode-regular-webfont.woff2") format("woff2"),
+        url("/fonts/Junicode/junicode-regular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Junicode Condensed";
+
+    src: url("/fonts/Junicode/junicode-regularcondensed-webfont.woff2")
+            format("woff2"),
+        url("/fonts/Junicode/junicode-regularcondensed-webfont.woff")
+            format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Junicode";
+    src: url("/fonts/Junicode/junicode-bold-webfont.woff2") format("woff2"),
+        url("/fonts/Junicode/junicode-bold-webfont.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Junicode Condensed";
+    src: url("/fonts/Junicode/junicode-boldcondensed-webfont.woff2")
+            format("woff2"),
+        url("/fonts/Junicode/junicode-boldcondensed-webfont.woff")
+            format("woff");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Junicode";
+    src: url("/fonts/Junicode/junicode-bolditalic-webfont.woff2")
+            format("woff2"),
+        url("/fonts/Junicode/junicode-bolditalic-webfont.woff") format("woff");
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Junicode Condensed";
+    src: url("/fonts/Junicode/junicode-bolditaliccondensed-webfont.woff2")
+            format("woff2"),
+        url("/fonts/Junicode/junicode-bolditaliccondensed-webfont.woff")
+            format("woff");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Junicode";
+    src: url("/fonts/Junicode/junicode-italic-webfont.woff2") format("woff2"),
+        url("/fonts/Junicode/junicode-italic-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Junicode Condensed";
+    src: url("/fonts/Junicode/junicode-italiccondensed-webfont.woff2")
+            format("woff2"),
+        url("/fonts/Junicode/junicode-italiccondensed-webfont.woff")
+            format("woff");
+    font-weight: normal;
+    font-style: italic;
+}
